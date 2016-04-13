@@ -1,0 +1,90 @@
+body{
+	background: rgb(255, 255, 255);
+	display: block;
+	position: static;
+	width: auto;
+	margin: auto; 
+	min-width: 1008px;
+	background-image: url(../img/texture.jpg);
+	background-repeat: repeat;
+	margin: 0;
+}
+
+h1{
+	font-family:Georgia, serif;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:10px;
+	line-height:35px;
+	color:black;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+.div1{
+	width: 100%;
+	border-bottom:1px dotted #ccc;
+	background-color: #f8f4e8;
+}
+
+.naslov{
+	font-family: "Gill Sans", Verdana;
+	font-size: 10px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-align: center;
+	margin: 5px auto;
+	color: #000;
+}
+
+#jssor_1{
+	padding-bottom:20px;
+}
+
+
+.tijelo{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+.main{
+	float:left;
+	width: 436px;
+	margin-left:30px;
+	height: 600px;
+}
+
+.mainR{
+	text-align:left;
+	padding-bottom: 15px;
+	width: 400px;
+	float:right;
+}
+
+#row0{
+	border: 3px solid #fff;
+	font-weight:bold;	
+}
+
+td{
+	vertical-align:top;
+	text-align:left;
+	height:100%;
+	width:100%;
+	padding: 2px 5px 2px 5px;
+}
+
+#row1, #row2{
+	border: 1px solid #fff;
+}
+
+#tipka{
+	float:right; 
+	width:100px;
+}

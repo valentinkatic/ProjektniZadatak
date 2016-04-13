@@ -1,0 +1,120 @@
+body{
+	background: rgb(255, 255, 255);
+	display: block;
+	position: static;
+	width: auto;
+	margin: auto; 
+	min-width: 1008px;
+	background-image: url(../img/texture.jpg);
+	background-repeat: repeat;
+	margin: 0;
+}
+
+h1{
+	font-family:Georgia, serif;
+	text-align:center;
+	font-size:24px;
+	letter-spacing:10px;
+	line-height:35px;
+	color:black;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+.div1{
+	width: 100%;
+	border-bottom:1px dotted #ccc;
+	background-color: #f8f4e8;
+}
+
+.naslov{
+	font-family: "Gill Sans", Verdana;
+	font-size: 10px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: normal;
+	text-align: center;
+	margin: 5px auto;
+	color: #000;
+}
+
+#jssor_1{
+	padding-bottom:20px;
+}
+
+
+.tijelo{
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+}
+.main{
+	float:left;
+	width: 586px;
+	margin-top:10px;
+	margin-left:30px;
+	height: 600px;
+}
+
+.mainR{
+	text-align:right;
+	padding: 15px 0 0 15px;
+	width: 250px;
+	float:right;
+}
+
+.info{
+	background-color:grey;
+	text-align:center;
+	font-size:20;
+	font-family:Verdana;
+	height:30px;
+	line-height:30px;
+	width:200px;
+	padding: 0 22px 0 22px;
+	border: 2px solid black;
+	float:right;
+}
+
+#cinjenice{ 
+	background-color:white;
+	float: right;
+	text-align:left;
+	width: 200px; 
+	height: 270px; 
+	padding: 20px 24px 20px 24px;
+	border-image-slice: 85 85 85 85;
+	border-image-width: 20px 20px 20px 20px;
+	border-image-outset: 0px 0px 0px 0px;
+	border-image-repeat: round round;
+	border-image-source: url(../img/border.jpg);
+	font-family: Tahoma;
+	font-size:18;
+}
+
+.pic{	
+	width:250px;
+	float:right;
+	margin-top:30px;
+	margin-bottom:10px;
+	padding-bottom:2px;
+	border:1px dotted black;
+}
+
+#glass{
+	display: block;
+	margin:5px auto 2px auto;
+	width:200px;
+}
+
+#glassInfo{
+	margin: 0 auto 0 auto;
+	width:200px;
+	text-align:center;
+	font-size:14;
+}
